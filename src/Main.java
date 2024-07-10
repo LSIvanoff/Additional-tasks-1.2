@@ -14,6 +14,18 @@ public class Main {
         int aw = a1 % 10;
         System.out.println("Сумма цифр числа " + a1 + " равна " + (an + aw));
 
+        System.out.println("Task 3");
+        int a2 = 345;
+//        int af2 = a2 / 100;
+//        int an2 = (a2 % 100) / 10;
+//        int aw2 = (a2 % 100) % 10;
+        int af2 = a2 % 10;
+        int an2 = a2 / 10 % 10;
+        int aw2 = a2 / 100;
+        System.out.println(af2);
+        System.out.println(an2);
+        System.out.println(aw2);
+        System.out.println("Сумма цифр числа " + a2 + " равна " + (af2 + an2 + aw2));
 
     }
 }
