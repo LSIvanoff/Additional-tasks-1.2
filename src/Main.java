@@ -27,5 +27,15 @@ public class Main {
         System.out.println(aw2);
         System.out.println("Сумма цифр числа " + a2 + " равна " + (af2 + an2 + aw2));
 
+        System.out.println("Task 4");
+        int bouquet = 4899;
+        int card = 157;
+        float discount = 0.9f;
+        float bouquetDiscount = bouquet * discount;
+        float cardDiscount = card * discount;
+        float discountSum = (bouquet - bouquetDiscount) + (card - cardDiscount);
+        System.out.println("Сумма двух покупок с учетом скидки равна " + (bouquetDiscount + cardDiscount) + " рублей");
+        System.out.println("Сумма скидки двух покупок составляет " + discountSum + " рублей");
+
     }
 }
